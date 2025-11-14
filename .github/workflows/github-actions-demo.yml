@@ -3,7 +3,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: arc-runner-set
+  Test GitHub Actions on frey-configs:
+    runs-on: frey-configs
     steps:
-    - run: echo "This job uses a self hosted runner scale set."
+    - run: echo "This job uses a self hosted runner scale set for frey-configs."
+
+  Test GitHub Actions on frey-configs:
+    runs-on: frey-infra-and-templates
+    steps:
+    - run: echo "This job uses a self hosted runner scale set for frey-infra-templates."
