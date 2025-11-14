@@ -3,12 +3,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  Test ARC frey-configs:
+  Test_ARC_frey-configs:
     runs-on: frey-configs
     steps:
     - run: echo "This job uses a self hosted runner scale set for frey-configs."
 
-  Test ARC frey-infra-and-templates:
+  Test_ARC_frey-infra-and-templates:
     runs-on: frey-infra-and-templates
     steps:
     - run: echo "This job uses a self hosted runner scale set for frey-infra-templates."
