@@ -7,8 +7,3 @@ jobs:
     runs-on: frey-configs
     steps:
     - run: echo "This job uses a self hosted runner scale set for frey-configs!"
-
-  Test_ARC_frey-infra-and-templates:
-    runs-on: frey-infra-and-templates
-    steps:
-    - run: echo "This job uses a self hosted runner scale set for frey-infra-templates!"
